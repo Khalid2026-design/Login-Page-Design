@@ -1,0 +1,131 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        body{
+            background-color: rgb(38, 17, 94);
+            align-items: center;
+            justify-content: center;
+            height: 90vh;
+            display: flex;
+             
+        }
+        #login_continer{
+            width: 300px;
+            height: 400px;
+            /* border: 1px solid whitesmoke; */
+            border-radius: 10px;
+            background-color: rgb(38, 35, 100);
+            margin: 1.5px;
+
+        }
+
+        #outer_continer{
+            width: 302px;
+            height: 402px;
+            border: 1px solid rgb(40, 57, 133);
+            box-shadow: 3px 4px 4px rgb(36, 27, 171);
+            animation: first;
+            border-radius: 10px;
+            animation-duration: 3s;
+            animation-iteration-count:infinite;
+        }
+         @keyframes first{
+            0%{
+                 
+                background-color: rgb(29, 23, 203);
+                box-shadow: 1px 4px 3px rgb(23, 104, 203);
+            }
+            10%{
+                background-color: rgb(23, 72, 177);
+                 box-shadow: 1px 4px 3px rgb(23, 72, 177);
+            }
+            20%{
+                background-color: rgb(3, 3, 3);
+                 box-shadow: 1px 4px 3px rgb(3, 3, 3);
+
+            }
+            30%{
+                background-color: rgb(39, 12, 134);
+                 box-shadow: 1px 4px 3px rgb(25, 29, 146);
+            }
+            50%{
+                background-color: rgb(21, 113, 212);
+                 box-shadow: 1px 4px 3px rgb(74, 21, 197);
+            }
+            100%{
+                background-color: rgb(65, 8, 122);
+              
+                
+            }
+        }
+        #login{
+            text-align: center;
+            padding-top: 80px;
+            color: aliceblue;
+        }
+        #user_name{
+            padding-top: 80px;
+            text-align: center;
+        }
+        
+        #password{
+            text-align: center;
+            padding-top: 10px;
+
+        }
+        #sign_in{
+            background-color: rgb(17, 95, 143);
+            text-align: center;
+            height: 30px;
+            margin-top: 60px;
+            width: 120px;
+            padding-top: 10px;
+            padding-bottom: 2px;
+            margin-left: 30%;
+            border-radius: 30px;
+            color: aliceblue;
+        }
+        #sign_in:hover{
+            background-color: black;
+        }
+        input{
+            background-color: rgb(38, 35, 100);
+            border: 1px solid white;
+            border-radius: 30px;
+            height: 30px;
+            width: 180px;
+        }
+        #forgat{
+            margin-top: 20px;
+            width: 125px;
+        }
+        #forgat:hover{
+            color: aliceblue;
+        }
+    </style>
+</head>
+<body>
+    
+<div id="continer">
+    
+    <div id="outer_continer">
+        <div id="login_continer">
+            <div id="login">🔜 LOGIN ❤</div>
+            <div id="user_name"><input type="text" placeholder="user name"></div>
+            <div id="password"> <input type="password" placeholder="password" required></div>
+            <div id="sign_in">Sign in</div>
+            <div id="forgat">Forgat password</div>
+        </div>
+    </div>
+    
+
+    </div>
+</div>
+
+
+</body>
+</html>
